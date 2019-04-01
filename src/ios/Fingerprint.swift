@@ -1,6 +1,7 @@
 import Foundation
 import LocalAuthentication
 
+@available(iOS 9.0, *)
 @objc(Fingerprint) class Fingerprint : CDVPlugin {
 
     @objc(isAvailable:)
